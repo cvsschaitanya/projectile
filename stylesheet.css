@@ -1,0 +1,50 @@
+.circle {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: red;
+    position: absolute;
+    bottom: 0;
+}
+
+.window {
+    /* width: 1000px; */
+    height: 700px;
+    background: lightblue;
+    position: relative;
+    top: 0;
+}
+
+.floor {
+    /* width: 1000px; */
+    height: 50px;
+    background: blue;
+    position: relative;
+    top: 0;
+}
+
+.H {
+    /* background: cyan; */
+    position: absolute;
+    left: 0;
+    /* height: 20px; */
+    width: 500px;
+    bottom: 250px;
+    border-bottom: 1.5px solid black;
+}
+
+.V {
+    /* background: cyan; */
+    position: absolute;
+    left: 500px;
+    height: 250px;
+    /* width: 20px; */
+    bottom: 0;
+    border-left: 1.5px solid black;
+}
+
+.dp {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
